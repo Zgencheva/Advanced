@@ -13,27 +13,59 @@ namespace _07.TruckTour
             Queue<int[]> path = new Queue<int[]>();
             Queue<int[]> initialStops = new Queue<int[]>();
             int index = 0;
+            bool indexFound = false;
             for (int i = 0; i < stops; i++)
             {
-                path.Enqueue(Console.ReadLine().Split().Select(int.Parse).ToArray());
-                initialStops.Enqueue(Console.ReadLine().Split().Select(int.Parse).ToArray());
+                int[] input = Console.ReadLine().Split().Select(int.Parse).ToArray();
+                path.Enqueue(input);
+                initialStops.Enqueue(input);
             }
 
             while (true)
             {
                 int fuelTotal = 0;
                 int distanceTotal = 0;
+                int currentIndex = 0;
+                
                 while (path.Count > 0)
                 {
                     int[] currentStop = path.Dequeue();
-                    int fuel = +currentStop[0];
+                    path.Enqueue(currentStop);
+                    fuelTotal += currentStop[0];
                     int distance = currentStop[1];
-                    if (fuel < distance)
+                    if (fuelTotal < distance)
                     {
-                        initialStops.Enqueue(currentStop);
+                        
+                        //path = initialStops;
                         index++;
                         break;
                     }
+                    else
+                    {
+                        currentIndex++;
+                        
+                        if (currentIndex == stops)
+                        {
+                            Console.WriteLine($"{index}");
+                            indexFound = true;
+                            break;
+                        }
+                        fuelTotal -= distance;
+                        continue;
+                    }
+                    
+                }
+                if (indexFound)
+                {
+                    break;
+                }
+                else
+                {
+                    initialStops.Enqueue(initialStops.Dequeue());
+                    path.Clear();
+                    Queue<int[]> path2 = new Queue<int[]>(initialStops);
+                    path = path2;
+                                        
                 }
             }
 
