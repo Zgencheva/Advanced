@@ -1,69 +1,74 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
-namespace _10.CrossRoads
+namespace CrossRoads
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int greenLight = int.Parse(Console.ReadLine());
+            int greenLightDuration = int.Parse(Console.ReadLine());
             int freeWindow = int.Parse(Console.ReadLine());
-            int currentGreen = greenLight;
-            int currentFreeWind = freeWindow;
-            Queue<string> carQueue = new Queue<string>();
-            bool isAllSafe = true;
-            while (true)
-            {
-                string command = Console.ReadLine();
 
-                if (command == "END")
+            var carsToPass = new Queue<string>();
+
+            var passedCars = new Stack<string>();
+
+            string command = string.Empty;
+
+            while ((command = Console.ReadLine()) != "END")
+            {
+                if (command != "green")
                 {
-                    break;
-                }
-                else if (command == "green")
-                {
-                    currentGreen = greenLight;
-                    currentFreeWind = freeWindow;
+                    carsToPass.Enqueue(command);
                 }
                 else
                 {
-                    int carLength = command.Length;
-                    if (currentGreen == 0)
-                    {
-                        continue;
-                    }
-                    else if (currentGreen >= carLength)
-                    {
-                        currentGreen -= carLength;
-                        carQueue.Enqueue(command);
-                    }
-                    else
-                    {
-                        int lengthInWindow = Math.Abs(currentGreen - carLength);
-                        currentGreen = 0;
-                        if (currentFreeWind >= lengthInWindow)
-                        {
-                            carQueue.Enqueue(command);
-                        }
-                        else
-                        {
-                            int stuck = carLength - (lengthInWindow - currentFreeWind); //4
-                            isAllSafe = false;
-                            Console.WriteLine("A crash happened!");
-                            Console.WriteLine($"Hummer was hit at {command[stuck]}.");
-                            break;
+                    int greenLight = greenLightDuration;
+                    int freePass = freeWindow;
 
+                    int counter = carsToPass.Count;
+
+                    for (int i = 0; i < counter; i++)
+                    {
+                        if (greenLight >= carsToPass.Peek().Length && carsToPass.Any())
+                        {
+                            greenLight -= carsToPass.Peek().Length;
+                            passedCars.Push(carsToPass.Dequeue());
+                        }
+                        else if (greenLight < carsToPass.Peek().Length && carsToPass.Any())
+                        {
+                            int timeLeft = greenLight + freePass;
+
+                            if (greenLight <= 0)
+                            {
+                                continue;
+                            }
+                            else if (timeLeft > 0 && timeLeft >= carsToPass.Peek().Length)
+                            {
+                                string car = carsToPass.Peek();
+                                timeLeft -= car.Length;
+                                passedCars.Push(carsToPass.Dequeue());
+                                greenLight = 0;
+                                freePass = 0;
+                            }
+                            else if (timeLeft > 0 && timeLeft < carsToPass.Peek().Length)
+                            {
+                                string car = carsToPass.Peek();
+
+                                Console.WriteLine("A crash happened!");
+                                int hit = timeLeft;
+                                Console.WriteLine($"{car} was hit at {car[hit]}.");
+                                return;
+                            }
                         }
                     }
-
                 }
             }
-            if (isAllSafe)
-            {
-                Console.WriteLine("Everyone is safe.");
-                Console.WriteLine($"{carQueue.Count} total cars passed the crossroads.");
-            }
+
+            Console.WriteLine("Everyone is safe.");
+            Console.WriteLine($"{passedCars.Count} total cars passed the crossroads.");
         }
     }
 }
