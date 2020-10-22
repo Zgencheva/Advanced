@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.SymbolInMatrix", "4.Symbo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.SquareWithMaxSum", "5.SquareWithMaxSum\5.SquareWithMaxSum.csproj", "{4967B132-6C43-4575-AD26-C4AB71DB5827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.JaggedArrayModification", "6.JaggedArrayModification\6.JaggedArrayModification.csproj", "{AD305CCC-DC86-4E50-85D2-1444555D0423}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.JaggedArrayModification", "6.JaggedArrayModification\6.JaggedArrayModification.csproj", "{AD305CCC-DC86-4E50-85D2-1444555D0423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.PascalTriangle", "7.PascalTriangle\7.PascalTriangle.csproj", "{4AC1487F-139E-4EDA-B6BA-8C748283D698}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{AD305CCC-DC86-4E50-85D2-1444555D0423}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD305CCC-DC86-4E50-85D2-1444555D0423}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD305CCC-DC86-4E50-85D2-1444555D0423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC1487F-139E-4EDA-B6BA-8C748283D698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC1487F-139E-4EDA-B6BA-8C748283D698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC1487F-139E-4EDA-B6BA-8C748283D698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC1487F-139E-4EDA-B6BA-8C748283D698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
