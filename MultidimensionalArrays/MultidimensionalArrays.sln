@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.PascalTriangle", "7.Pasca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiralMatrix", "SpiralMatrix\SpiralMatrix.csproj", "{A23881BE-E5EA-451F-9580-C1EC72C50556}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BucketSort", "BucketSort\BucketSort.csproj", "{233BBDC9-B7A5-45EE-AFF8-9F68355E5FD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A23881BE-E5EA-451F-9580-C1EC72C50556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A23881BE-E5EA-451F-9580-C1EC72C50556}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A23881BE-E5EA-451F-9580-C1EC72C50556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233BBDC9-B7A5-45EE-AFF8-9F68355E5FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233BBDC9-B7A5-45EE-AFF8-9F68355E5FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233BBDC9-B7A5-45EE-AFF8-9F68355E5FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233BBDC9-B7A5-45EE-AFF8-9F68355E5FD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

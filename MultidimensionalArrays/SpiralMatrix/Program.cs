@@ -85,7 +85,15 @@ namespace SpiralMatrix
             {
                 for (int col = 0; col < matrix.GetLength(1); col++)
                 {
+                    if (matrix[row, col] < 10)
+                    {
+                        Console.Write(" " + matrix[row, col] + " ");
+                    }
+                    else
+                    {
                     Console.Write(matrix[row, col] + " ");
+
+                    }
                 }
                 Console.WriteLine();
             }
