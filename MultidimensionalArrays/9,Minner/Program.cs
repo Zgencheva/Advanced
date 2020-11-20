@@ -11,19 +11,110 @@ namespace _9_Minner
             string[] commands = Console.ReadLine().Split().ToArray();
             char[,] matrix = ReadMatrix(n,n);
             int coals = GetTotalCoals(matrix);
-            bool areAllCoalsCollected = false;
-            for (int i = 0; i < commands.Length; i++)
+            bool isTheGameEnded = false;
+            int rowPossition = 0;
+            int collPossition = 0;
+            //Getting the start possition
+            for (int row = 0; row < n; row++)
             {
-                if (coals == 0)
+                for (int col = 0; col < n; col++)
                 {
-                    areAllCoalsCollected = true;
-                    break;
+                    if (matrix[row, col] == 's')
+                    {
+                        rowPossition = row;
+                        collPossition = col;
+                    }
+                    
                 }
             }
-
-            if (coals > 0)
+            for (int i = 0; i < commands.Length; i++)
             {
-                Console.WriteLine($"{coals} coals left. (5, 0)");
+                string currentCommand = commands[i];
+                if (currentCommand == "right")
+                {
+                    if (collPossition < n - 1)
+                    {
+                        collPossition++;
+                        if (matrix[rowPossition, collPossition] == 'c')
+                        {
+                            coals--;
+                            matrix[rowPossition, collPossition] = '*';
+                        }
+                        else if (matrix[rowPossition, collPossition] == 'e')
+                        {
+                            Console.WriteLine($"Game over! ({rowPossition}, {collPossition})");
+                            isTheGameEnded = true;
+                            break;
+                        }
+                    }
+                }
+                else if (currentCommand == "left")
+                {
+                    if (collPossition > 0)
+                    {
+                        collPossition--;
+                        if (matrix[rowPossition, collPossition] == 'c')
+                        {
+                            coals--;
+                            matrix[rowPossition, collPossition] = '*';
+                        }
+                        else if (matrix[rowPossition, collPossition] == 'e')
+                        {
+                            Console.WriteLine($"Game over! ({rowPossition}, {collPossition})");
+                            isTheGameEnded = true;
+                            break;
+                        }
+                    }
+                }
+                else if (currentCommand == "down")
+                {
+                    if (rowPossition < n - 1)
+                    {
+                        rowPossition++;
+                        if (matrix[rowPossition, collPossition] == 'c')
+                        {
+                            coals--;
+                            matrix[rowPossition, collPossition] = '*';
+                        }
+                        else if (matrix[rowPossition, collPossition] == 'e')
+                        {
+                            Console.WriteLine($"Game over! ({rowPossition}, {collPossition})");
+                            isTheGameEnded = true;
+                            break;
+                        }
+                    }
+                }
+                else if (currentCommand == "up")
+                {
+                    if (rowPossition > 0)
+                    {
+                        rowPossition--;
+                        if (matrix[rowPossition, collPossition] == 'c')
+                        {
+                            coals--;
+                            matrix[rowPossition, collPossition] = '*';
+                        }
+                        else if (matrix[rowPossition, collPossition] == 'e')
+                        {
+                            Console.WriteLine($"Game over! ({rowPossition}, {collPossition})");
+                            isTheGameEnded = true;
+                            break;
+                        }
+
+                    }
+                }
+                if (coals == 0)
+                {
+                    
+                    Console.WriteLine($"You collected all coals! ({rowPossition}, {collPossition})");
+                    break;
+                }
+                
+            }
+
+            if (coals > 0 && !isTheGameEnded)
+            {
+                Console.WriteLine($"{coals} coals left. ({rowPossition}, {collPossition})");
             }
 
         }
