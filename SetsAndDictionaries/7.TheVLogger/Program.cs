@@ -42,19 +42,16 @@ namespace _7.TheVLogger
                         {
                             if (item.Key == follow1)
                             {
-                                if (!item.Value.Following.Contains(follo2))
-                                {
-
+                                
                                 item.Value.Following.Add(follo2);
-                                }
+                                
                             }
                             else if (item.Key == follo2)
                             {
-                                if (!item.Value.Followers.Contains(follow1))
-                                {
+                               
                                 item.Value.Followers.Add(follow1);
 
-                                }
+                               
                             }
                         }
                     }
@@ -85,14 +82,14 @@ namespace _7.TheVLogger
         public class Vlogger
         {
             public string Name { get; set; }
-            public List<string> Followers { get; set; }
-            public List<string> Following { get; set; }
+            public HashSet<string> Followers { get; set; }
+            public HashSet<string> Following { get; set; }
 
             public Vlogger(string name)
             {
                 this.Name = name;
-                this.Followers = new List<string>();
-                this.Following = new List<string>();
+                this.Followers = new HashSet<string>();
+                this.Following = new HashSet<string>();
             }
 
            

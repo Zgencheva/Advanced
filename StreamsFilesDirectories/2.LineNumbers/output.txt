@@ -1,0 +1,27 @@
+1. using System;
+2. using System.IO;
+3. 
+4. namespace _2.LineNumbers
+5. {
+6.     class Program
+7.     {
+8.         static void Main(string[] args)
+9.         {
+10.             using (var reader = new StreamReader("../../../Program.cs"))
+11.             {
+12.                 using (var writer = new StreamWriter("../../../output.txt"))
+13.                 {
+14.                     var line = reader.ReadLine();
+15.                     int index = 1;
+16.                     while (line != null)
+17.                     {
+18.                         writer.WriteLine($"{index}. {line}");
+19.                         Console.WriteLine($"{index}. {line}");
+20.                         index++;
+21.                         line = reader.ReadLine();
+22.                     }
+23.                 }
+24.             }
+25.         }
+26.     }
+27. }
