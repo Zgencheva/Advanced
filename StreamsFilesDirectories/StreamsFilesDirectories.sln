@@ -13,17 +13,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.LineNumbers", "2.LineNumb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamsDemo", "StreamsDemo\StreamsDemo.csproj", "{3F0FDCC0-51D7-455D-A987-FE29D5A3443F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "streamsSecondDemo", "streamsSecondDemo\streamsSecondDemo.csproj", "{0C2A4CEA-7596-4944-AD67-9E20B0330CAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "streamsSecondDemo", "streamsSecondDemo\streamsSecondDemo.csproj", "{0C2A4CEA-7596-4944-AD67-9E20B0330CAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadStringAsByte", "ReadStringAsByte\ReadStringAsByte.csproj", "{7B6D12EC-336C-4F92-B78B-C32A22B508D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadStringAsByte", "ReadStringAsByte\ReadStringAsByte.csproj", "{7B6D12EC-336C-4F92-B78B-C32A22B508D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.SliceFile", "4.SliceFile\4.SliceFile.csproj", "{BC149202-7CCD-43F9-BA94-DCC0C6D7751D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.SliceFile", "4.SliceFile\4.SliceFile.csproj", "{BC149202-7CCD-43F9-BA94-DCC0C6D7751D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileApi", "FileApi\FileApi.csproj", "{0FAA09FA-EDC3-4A47-8AB7-27AE2863B94B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileApi", "FileApi\FileApi.csproj", "{0FAA09FA-EDC3-4A47-8AB7-27AE2863B94B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directories", "Directories\Directories.csproj", "{30109EB7-5AD8-44A0-86B4-6EF32DF0133D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directories", "Directories\Directories.csproj", "{30109EB7-5AD8-44A0-86B4-6EF32DF0133D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.WordCount", "3.WordCount\3.WordCount.csproj", "{B609B61B-2EFE-4D1E-A58C-948496DECDB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.WordCount", "3.WordCount\3.WordCount.csproj", "{B609B61B-2EFE-4D1E-A58C-948496DECDB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.EvenLines", "01.EvenLines\01.EvenLines.csproj", "{B6FE21FA-8645-49CA-8C0B-DF953B1F70F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.LineNumbers", "02.LineNumbers\02.LineNumbers.csproj", "{DC20D8BB-7E3B-4A3C-B1DA-05FCDC6E1DFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{B609B61B-2EFE-4D1E-A58C-948496DECDB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B609B61B-2EFE-4D1E-A58C-948496DECDB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B609B61B-2EFE-4D1E-A58C-948496DECDB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FE21FA-8645-49CA-8C0B-DF953B1F70F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FE21FA-8645-49CA-8C0B-DF953B1F70F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FE21FA-8645-49CA-8C0B-DF953B1F70F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FE21FA-8645-49CA-8C0B-DF953B1F70F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC20D8BB-7E3B-4A3C-B1DA-05FCDC6E1DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC20D8BB-7E3B-4A3C-B1DA-05FCDC6E1DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC20D8BB-7E3B-4A3C-B1DA-05FCDC6E1DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC20D8BB-7E3B-4A3C-B1DA-05FCDC6E1DFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
