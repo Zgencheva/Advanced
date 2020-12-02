@@ -20,7 +20,7 @@ namespace _5.DirectoryTraversal
                     fileInfo.Add(file.Extension, new Dictionary<string, double>());
 
                 }
-                fileInfo[file.Extension].Add(file.Name, (double)file.Length/1000);
+                fileInfo[file.Extension].Add(file.Name, (double)file.Length/1024);
             }
 
             
