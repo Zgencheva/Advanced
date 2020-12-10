@@ -45,9 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.CustomComparator", "08.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.ListOfPredicates", "09.ListOfPredicates\09.ListOfPredicates.csproj", "{7BBCB8AD-C755-4639-8F67-90FBB82DF445}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.PredicateParty", "10.PredicateParty\10.PredicateParty.csproj", "{0173BDBB-D517-403E-ADC2-F3C5F09A35E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.PredicateParty", "10.PredicateParty\10.PredicateParty.csproj", "{0173BDBB-D517-403E-ADC2-F3C5F09A35E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.PartyReservationFilterModule", "11.PartyReservationFilterModule\11.PartyReservationFilterModule.csproj", "{22597A13-877D-4D75-942D-A42F6B2EAA61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.PartyReservationFilterModule", "11.PartyReservationFilterModule\11.PartyReservationFilterModule.csproj", "{22597A13-877D-4D75-942D-A42F6B2EAA61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.TriFunction", "12.TriFunction\12.TriFunction.csproj", "{06C7B401-E7AD-4FB4-9174-F98E6E040779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{22597A13-877D-4D75-942D-A42F6B2EAA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22597A13-877D-4D75-942D-A42F6B2EAA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22597A13-877D-4D75-942D-A42F6B2EAA61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C7B401-E7AD-4FB4-9174-F98E6E040779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C7B401-E7AD-4FB4-9174-F98E6E040779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C7B401-E7AD-4FB4-9174-F98E6E040779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C7B401-E7AD-4FB4-9174-F98E6E040779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
