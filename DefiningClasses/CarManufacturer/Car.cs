@@ -77,7 +77,7 @@ namespace CarManufacturer
 
         public void Drive(double distance)
         {
-            double fuel = this.FuelQuantity - (distance * this.FuelConsumption);
+            double fuel = this.FuelQuantity - (distance * this.FuelConsumption/100);
             if ( fuel > 0)
             {
                 this.FuelQuantity = fuel;
@@ -90,7 +90,7 @@ namespace CarManufacturer
 
         public string WhoAmI()
         {
-            string whoAmiI = $"Make: { this.Make}\nModel: { this.Model}\nYear: { this.Year}\nFuel: { this.FuelQuantity:F2}";
+            string whoAmiI = $"Make: { this.Make}\nModel: { this.Model}\nYear: {this.Year}\nHorsePowers: {this.Engine.HorsePower}\nFuelQuantity: {this.FuelQuantity}";
             return whoAmiI;
                
         }

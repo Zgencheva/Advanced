@@ -74,15 +74,8 @@ namespace CarManufacturer
 
             for (int i = 0; i < specialCars.Count; i++)
             {
-                specialCars[i].Drive(0.2);
-                StringBuilder newSb = new StringBuilder();
-                newSb.AppendLine("Make: " + specialCars[i].Make);
-                newSb.AppendLine("Model: " + specialCars[i].Model);
-                newSb.AppendLine("Year: " + specialCars[i].Year);
-                newSb.AppendLine("HorsePowers: " + specialCars[i].Engine.HorsePower);
-                newSb.AppendLine("FuelQuantity: " + specialCars[i].FuelQuantity);
-
-                Console.WriteLine(newSb);
+                specialCars[i].Drive(20);
+                Console.WriteLine(specialCars[i].WhoAmI());
             }
 
             
