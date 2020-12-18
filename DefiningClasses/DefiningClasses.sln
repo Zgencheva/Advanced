@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarSalesman", "CarSalesman\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonTrainer", "PokemonTrainer\PokemonTrainer.csproj", "{7ED6A6A3-3C31-45C8-A4EE-BA26DE514740}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftuniParking", "SoftuniParking\SoftuniParking.csproj", "{622A7A86-2C83-4A09-BF0E-2B3CC4FB8108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7ED6A6A3-3C31-45C8-A4EE-BA26DE514740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ED6A6A3-3C31-45C8-A4EE-BA26DE514740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ED6A6A3-3C31-45C8-A4EE-BA26DE514740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622A7A86-2C83-4A09-BF0E-2B3CC4FB8108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622A7A86-2C83-4A09-BF0E-2B3CC4FB8108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622A7A86-2C83-4A09-BF0E-2B3CC4FB8108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622A7A86-2C83-4A09-BF0E-2B3CC4FB8108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
