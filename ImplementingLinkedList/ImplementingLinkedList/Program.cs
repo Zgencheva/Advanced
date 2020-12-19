@@ -9,10 +9,14 @@ namespace ImplementingLinkedList
             LinkedList list = new LinkedList();
             for (int i = 0; i < 20; i++)
             {
-                list.AddHead(new Node(i));
+                list.AddLast(i);
             }
+            //list.PrintList();
+            list.RemoveFirst();
+            list.RemoveLast();
+            list.RemoveLast();
+            list.PrintList();
 
-            list.ReversedPrintList();
         }
     }
 }
