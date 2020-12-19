@@ -12,14 +12,24 @@ namespace GameSnake
         bool isStarted = false;
 
         List<IDrawable> gameItems = new List<IDrawable>();
+        private Random rand = new Random();
+        public Snake Snake { get; set; }
 
+        //public Food[] MyProperty { get; set; }
         public GameEngine()
         {
             Snake = new Snake(new Possition(30, 20));
             gameItems.Add(Snake);
+            for (int i = 0; i <20 ; i++)
+            {
+                var food = new Food
+                    (new Possition(rand.Next(0, Console.BufferWidth), 
+                    rand.Next(0, Console.WindowHeight)));
+                gameItems.Add(food);
+            }
         }
 
-        public Snake Snake { get; set; }
+        
 
         public void Start()
         {
@@ -35,8 +45,8 @@ namespace GameSnake
                     movement = ReadUserInput.GetMovement(key);
                 }
                 
-                Thread.Sleep(50);
-                Console.Clear();
+                Thread.Sleep(40);
+                //Console.Clear();
                 gameItems.ForEach(i => i.Draw());
                 
             }

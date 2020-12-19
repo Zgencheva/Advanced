@@ -6,8 +6,11 @@ namespace GameSnake
     {
         static void Main(string[] args)
         {
+            Console.CursorVisible = false;
             var engine = new GameEngine();
             engine.Start();
+
+
         }
     }
 }

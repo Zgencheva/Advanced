@@ -20,5 +20,7 @@ namespace GameSnake
             this.Y += possition.Y;
 
         }
+        
+
     }
 }
