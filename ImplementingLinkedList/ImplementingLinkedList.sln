@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementingLinkedList", "ImplementingLinkedList\ImplementingLinkedList.csproj", "{2D92B65E-553D-4254-B1DB-4136512D5D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameSnake", "GameSnake\GameSnake.csproj", "{71C5ABAD-F288-49CE-A04B-A7690604308E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameSnake", "GameSnake\GameSnake.csproj", "{71C5ABAD-F288-49CE-A04B-A7690604308E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementCustomStack", "ImplementCustomStack\ImplementCustomStack.csproj", "{FDBFE348-091E-46D4-8F10-8FC7420F5061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementingCustomList", "ImplementingCustomList\ImplementingCustomList.csproj", "{B4228A01-073F-45D2-955F-DEBC304B1519}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{71C5ABAD-F288-49CE-A04B-A7690604308E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71C5ABAD-F288-49CE-A04B-A7690604308E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71C5ABAD-F288-49CE-A04B-A7690604308E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDBFE348-091E-46D4-8F10-8FC7420F5061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBFE348-091E-46D4-8F10-8FC7420F5061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBFE348-091E-46D4-8F10-8FC7420F5061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBFE348-091E-46D4-8F10-8FC7420F5061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4228A01-073F-45D2-955F-DEBC304B1519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4228A01-073F-45D2-955F-DEBC304B1519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4228A01-073F-45D2-955F-DEBC304B1519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4228A01-073F-45D2-955F-DEBC304B1519}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
