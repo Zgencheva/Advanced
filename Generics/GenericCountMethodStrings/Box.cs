@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GenericBoxofString
 {
-    public class Box<T>
+    public class Box<T> where T : IComparable
     {
         public List<T> List { get; set; }
 
@@ -33,6 +33,19 @@ namespace GenericBoxofString
             this.List[firstIndex] = this.List[seconIndex];
             this.List[seconIndex] = current;
             return this.List;
+        }
+
+        public int CountOfGreaterElements(T element)
+        {
+            int count = 0;
+            for (int i = 0; i <this.List.Count; i++)
+            {
+                if (this.List[i].CompareTo(element) > 0)
+                {
+                    count++;
+                }
+            }
+            return count;
         }
     }
 }

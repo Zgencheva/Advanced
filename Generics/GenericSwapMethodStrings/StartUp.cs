@@ -10,23 +10,30 @@ namespace GenericSwapMethodStrings
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            Box<int> box = new Box<int>();
+            List<string> currentList = new List<string>();
             for (int i = 0; i < n; i++)
             {
-                box.List.Add(int.Parse(Console.ReadLine()));
-
+                currentList.Add(Console.ReadLine());
             }
-            int[] possitions = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            int firstIndex = possitions[0];
-            int secondIndex = possitions[1];
-
-            box.Swap(box.List, firstIndex, secondIndex);
-            Console.WriteLine(box.ToString());
-
+            int[] indexes = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
+                
+            Swap(currentList, indexes[0], indexes[1]);
         }
 
-        
+        public static void Swap<T>(List<T> list, int firstIn, int secondInd)
+        {
+            T medInd = list[firstIn];
+            list[firstIn] = list[secondInd];
+            list[secondInd] = medInd;
 
+            foreach (var item in list)
+            {
+                Console.WriteLine($"{item.GetType()}: {item}");
+            }
+        }
 
     }
 }
