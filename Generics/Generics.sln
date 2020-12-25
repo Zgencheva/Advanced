@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCountMethodStrings",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuple", "Tuple\Tuple.csproj", "{63A93571-2105-4D55-962F-6FE37DD3F0A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLinkedList", "CustomLinkedList\CustomLinkedList.csproj", "{C39871F5-CD33-4E9D-BA33-4B923EF070EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{63A93571-2105-4D55-962F-6FE37DD3F0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63A93571-2105-4D55-962F-6FE37DD3F0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63A93571-2105-4D55-962F-6FE37DD3F0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39871F5-CD33-4E9D-BA33-4B923EF070EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39871F5-CD33-4E9D-BA33-4B923EF070EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39871F5-CD33-4E9D-BA33-4B923EF070EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39871F5-CD33-4E9D-BA33-4B923EF070EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
