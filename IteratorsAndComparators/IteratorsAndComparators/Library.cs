@@ -35,7 +35,7 @@ namespace IteratorsAndComparators
             public LibraryIterator(List<Book> books)
             {
                 this.Books = books;
-                this.Books.Sort();
+                this.Books.Sort(new BookComparator());
             }
 
             private int index = -1;
