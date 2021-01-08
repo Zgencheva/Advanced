@@ -10,8 +10,7 @@ namespace Froggy
 
         private readonly int[] stones;
 
-        private int index = -1;
-
+        
         public Lake(params int[] input)
         {
             this.stones = input;
