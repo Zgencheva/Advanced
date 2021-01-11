@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pow", "Pow\Pow.csproj", "{B14BF1C4-2767-41A4-A307-5406ED9FF34F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pow", "Pow\Pow.csproj", "{B14BF1C4-2767-41A4-A307-5406ED9FF34F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{FEE82EBA-46B5-44FB-B6C4-6861FECA351D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "Algorithms\Algorithms.csproj", "{FEE82EBA-46B5-44FB-B6C4-6861FECA351D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionTraverseArray", "RecursionTraverseArray\RecursionTraverseArray.csproj", "{7D4FC6F9-2B60-43AE-B6B2-710A853D4FF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionTraverseArray", "RecursionTraverseArray\RecursionTraverseArray.csproj", "{7D4FC6F9-2B60-43AE-B6B2-710A853D4FF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveArraySum", "RecursiveArraySum\RecursiveArraySum.csproj", "{FFF2FFC5-A6AD-429E-8F1F-E73B32F2F907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveArraySum", "RecursiveArraySum\RecursiveArraySum.csproj", "{FFF2FFC5-A6AD-429E-8F1F-E73B32F2F907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFactorial", "RecursiveFactorial\RecursiveFactorial.csproj", "{ECFDC3CE-B016-4494-93D6-46701B7D5543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursiveFactorial", "RecursiveFactorial\RecursiveFactorial.csproj", "{ECFDC3CE-B016-4494-93D6-46701B7D5543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Division", "Division\Division.csproj", "{3C29743C-DFDD-4946-9D2D-82EB5C3E5DDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Division", "Division\Division.csproj", "{3C29743C-DFDD-4946-9D2D-82EB5C3E5DDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfCoins", "SumOfCoins\SumOfCoins.csproj", "{99077641-E711-400C-821C-4712817B3AFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfCoins", "SumOfCoins\SumOfCoins.csproj", "{99077641-E711-400C-821C-4712817B3AFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetCover", "SetCover2\SetCover.csproj", "{0B3054A1-B7F2-4151-BAB1-A97F2EC4639B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetCover", "SetCover2\SetCover.csproj", "{0B3054A1-B7F2-4151-BAB1-A97F2EC4639B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "MergeSort\BinarySearch.csproj", "{5D11466A-7E1B-44CA-80DB-71EBCBDA86C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{0B3054A1-B7F2-4151-BAB1-A97F2EC4639B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B3054A1-B7F2-4151-BAB1-A97F2EC4639B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B3054A1-B7F2-4151-BAB1-A97F2EC4639B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D11466A-7E1B-44CA-80DB-71EBCBDA86C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D11466A-7E1B-44CA-80DB-71EBCBDA86C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D11466A-7E1B-44CA-80DB-71EBCBDA86C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D11466A-7E1B-44CA-80DB-71EBCBDA86C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
