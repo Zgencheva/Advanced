@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace MergeSort
 {
@@ -6,7 +7,7 @@ namespace MergeSort
     {
         static void Main(string[] args)
         {
-            int[] array = new int[] { 1, 2, 3, 4, 5 };
+            int[] array = Console.ReadLine().Split().Select(int.Parse).ToArray();
             int number = int.Parse(Console.ReadLine());
 
             Console.WriteLine(BinarySearch(array, number, 0, array.Length ));
