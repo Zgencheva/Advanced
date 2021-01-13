@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LootBox", "ExamPreparation\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Re-Volt", "Re-Volt\Re-Volt.csproj", "{612A1946-01EC-4BFB-A3D3-38495876F28F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guild", "Guild\Guild.csproj", "{DC1C9D25-B46A-4477-89F7-F06876DEF1DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{612A1946-01EC-4BFB-A3D3-38495876F28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{612A1946-01EC-4BFB-A3D3-38495876F28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{612A1946-01EC-4BFB-A3D3-38495876F28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1C9D25-B46A-4477-89F7-F06876DEF1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1C9D25-B46A-4477-89F7-F06876DEF1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1C9D25-B46A-4477-89F7-F06876DEF1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1C9D25-B46A-4477-89F7-F06876DEF1DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
