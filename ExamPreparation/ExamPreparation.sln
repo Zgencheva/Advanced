@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guild", "Guild\Guild.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flower Wreaths", "Flower Wreaths\Flower Wreaths.csproj", "{89D394F7-B647-478C-BD2D-CA2FCE2D797C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bee", "Bee\Bee.csproj", "{B9386508-E8BC-48C1-8452-8866EFE7507D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{89D394F7-B647-478C-BD2D-CA2FCE2D797C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D394F7-B647-478C-BD2D-CA2FCE2D797C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D394F7-B647-478C-BD2D-CA2FCE2D797C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9386508-E8BC-48C1-8452-8866EFE7507D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9386508-E8BC-48C1-8452-8866EFE7507D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9386508-E8BC-48C1-8452-8866EFE7507D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9386508-E8BC-48C1-8452-8866EFE7507D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
