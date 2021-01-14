@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Re-Volt", "Re-Volt\Re-Volt.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guild", "Guild\Guild.csproj", "{DC1C9D25-B46A-4477-89F7-F06876DEF1DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flower Wreaths", "Flower Wreaths\Flower Wreaths.csproj", "{89D394F7-B647-478C-BD2D-CA2FCE2D797C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flower Wreaths", "Flower Wreaths\Flower Wreaths.csproj", "{89D394F7-B647-478C-BD2D-CA2FCE2D797C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bee", "Bee\Bee.csproj", "{B9386508-E8BC-48C1-8452-8866EFE7507D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bee", "Bee\Bee.csproj", "{B9386508-E8BC-48C1-8452-8866EFE7507D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetClinic", "VetClinic\VetClinic.csproj", "{C50AA0E0-7554-4552-99AD-1E6497A16A63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B9386508-E8BC-48C1-8452-8866EFE7507D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9386508-E8BC-48C1-8452-8866EFE7507D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9386508-E8BC-48C1-8452-8866EFE7507D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50AA0E0-7554-4552-99AD-1E6497A16A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50AA0E0-7554-4552-99AD-1E6497A16A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50AA0E0-7554-4552-99AD-1E6497A16A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50AA0E0-7554-4552-99AD-1E6497A16A63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

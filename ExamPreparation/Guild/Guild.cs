@@ -36,7 +36,7 @@ namespace Guild
 
         public bool RemovePlayer(string name)
         {
-            bool isRemoved = false;
+            //bool isRemoved = false;
             Player player = Rooster.Where(x => x.Name == name).FirstOrDefault();
             return this.Rooster.Remove(player);
 
