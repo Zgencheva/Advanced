@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStacsOperations", "StacksAndQueuesEx\BasicStacsOperations.csproj", "{492834B2-03C8-4FDC-8ECC-CD54C2D6870B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicStacsOperations", "StacksAndQueuesEx\BasicStacsOperations.csproj", "{492834B2-03C8-4FDC-8ECC-CD54C2D6870B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicQueueOperations", "BasicQueueOperations\BasicQueueOperations.csproj", "{6B75AB49-A64E-45DA-8D91-511A674EDF6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicQueueOperations", "BasicQueueOperations\BasicQueueOperations.csproj", "{6B75AB49-A64E-45DA-8D91-511A674EDF6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumAndMinimumElement", "MaximumAndMinimumElement\MaximumAndMinimumElement.csproj", "{B42094E5-E138-4D12-BFBB-302FDCB2AC1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumAndMinimumElement", "MaximumAndMinimumElement\MaximumAndMinimumElement.csproj", "{B42094E5-E138-4D12-BFBB-302FDCB2AC1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongsQueue", "SongsQueue\SongsQueue.csproj", "{5A0A0EC0-9431-431F-9A82-EE3AC3416936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SongsQueue", "SongsQueue\SongsQueue.csproj", "{5A0A0EC0-9431-431F-9A82-EE3AC3416936}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckTour", "TruckTour\TruckTour.csproj", "{C4F5AFAA-7DC8-4ADE-83B3-8A7D8E6DC690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckTour", "TruckTour\TruckTour.csproj", "{C4F5AFAA-7DC8-4ADE-83B3-8A7D8E6DC690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedParentheses", "BalancedParentheses\BalancedParentheses.csproj", "{4C0CB4E2-A4AB-47C4-8913-A6B0255C18BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C4F5AFAA-7DC8-4ADE-83B3-8A7D8E6DC690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4F5AFAA-7DC8-4ADE-83B3-8A7D8E6DC690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4F5AFAA-7DC8-4ADE-83B3-8A7D8E6DC690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0CB4E2-A4AB-47C4-8913-A6B0255C18BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0CB4E2-A4AB-47C4-8913-A6B0255C18BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0CB4E2-A4AB-47C4-8913-A6B0255C18BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0CB4E2-A4AB-47C4-8913-A6B0255C18BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
