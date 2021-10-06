@@ -19,7 +19,7 @@ namespace AdvancedExam26June21
             dishes.Add(300, "Chocolate cake");
             dishes.Add(400, "Lobster");
             Dictionary<string, int> cooked = new Dictionary<string, int>();
-            bool succeeded = false;
+            //bool succeeded = false;
             while (ingredients.Count > 0 && levelOfFreshnes.Count > 0)
             {
                 int currentIngredient = ingredients.Peek();
