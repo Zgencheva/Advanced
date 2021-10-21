@@ -54,11 +54,11 @@ namespace RawData
                     }
                 }
             }
-            else if (output == "flamable")
+            else if (output == "flammable")
             {
                 foreach (Car item in cars)
                 {
-                    if (item.Cargo.Type == "flamable" && item.Engine.Power > 250 )
+                    if (item.Cargo.Type == "flammable" && item.Engine.Power > 250 )
                     {
                         Console.WriteLine(item.Model);
                     }
